@@ -13,3 +13,11 @@ End-to-end MLOps pipeline for Indian CPCB Urban AQI forecasting, featuring autom
     docker run -d -p 8080:8000 --name aqi-api ghcr.io/mohd2428cse2293-dotcom/urban-aqi-mlops-pipeline:latest
 
 Open `http://localhost:8080/docs` for interactive Swagger UI inference.
+
+## Pipeline Verification & Results
+
+### 1. MLflow Experiment Tracking & Model Artifacts
+![MLflow Verification 1](docs/mlflow1.jpeg)
+
+### 2. MLflow Hyperparameters & Registered Model
+![MLflow Verification 2](docs/mlflow2.jpeg)
