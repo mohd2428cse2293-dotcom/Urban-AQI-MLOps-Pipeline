@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: mohd2428cse2293-dotcom/urban-aqi-mlops-pipeline
 
 jobs:
   build-test-publish:
